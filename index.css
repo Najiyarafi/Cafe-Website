@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    margin-top: 2px;
+    height: 50px;
+    background-color: white;
+  }
+  a {
+    text-decoration: none;
+  }
+  .logo img {
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 45px;
+    width: 60px;
+  }
+  .navright {
+    float: right;
+  }
+  
+  #button {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline block;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 18px;
+    background-color: lightcoral;
+    padding: 10px;
+  }
+  .bg {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg img {
+    width: 100%;
+    height: 450px;
+  }
+  .d1 {
+    position: absolute;
+    top: 22%;
+    left: 27%;
+  }
+  #dd1 {
+    margin-left: 30px;
+  }
+  #button2 {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline block;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 15px;
+    background-color: lightcoral;
+    padding: 10px;
+  }
+  .boxes {
+    height: 150px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+  
+    position: absolute;
+  }
+  #box1 {
+    width: 200px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+  }
+  
+  #box2 {
+    width: 200px;
+    background-color: rgb(183, 179, 179);
+    color: black;
+    padding: 20px;
+  }
+  #box3 {
+    width: 200px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+  }
+  i {
+    color: brown;
+  }
+  .d2 {
+    width: 100%;
+    height: 600px;
+  }
+  .d2 h3 {
+    text-align: center;
+  }
+  .box2 {
+    align-items: center;
+    display: flex;
+  }
+  #one img {
+    width: 300px;
+    height: 225px;
+    margin-left: 270px;
+  }
+  #two {
+    width: 300px;
+    height: 225px;
+    margin-left: 50px;
+    position: relative;
+    margin-top: 60px;
+  }
+  #two h4 {
+    font-size: larger;
+    color: palevioletred;
+  }
+  #button3 {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline block;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 15px;
+    background-color: lightcoral;
+    padding: 10px;
+  }
+  .box3 {
+    display: flex;
+  }
+  #three {
+    width: 300px;
+    height: 225px;
+    margin-left: 300px;
+  }
+  #three h4 {
+    font-size: larger;
+    color: palevioletred;
+    margin-top: 40px;
+  }
+  #button4 {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline block;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 15px;
+    background-color: lightcoral;
+    padding: 10px;
+  }
+  #four img {
+    width: 300px;
+    height: 225px;
+  }
+  .bg2 {
+    width: 100%;
+    height: 250px;
+  }
+  .bg2 img {
+    width: 100%;
+    height: 250px;
+  }
+  .d3 {
+    height: 370px;
+    width: 100%;
+  }
+  .d3 h3 {
+    font-size: larger;
+    color: black;
+    text-align: center;
+  }
+  .d3 h5 {
+    text-align: center;
+  }
+  .dp {
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: space-between;
+  }
+  #dp1 img {
+    height: 210px;
+    width: 200px;
+  }
+  #dp2 img {
+    height: 210px;
+    width: 200px;
+  }
+  #dp3 img {
+    height: 210px;
+    width: 200px;
+  }
+  
+  .bgbox {
+    width: 55%;
+    height: 200px;
+    position: relative;
+    margin-top: -230px;
+    margin-left: 260px;
+  }
+  .right {
+    width: 50%;
+    height: 100%;
+    ma
+  }
+  .left {
+    color: aliceblue;
+    width: 50%;
+    height: 100%;
+    margin-top: -200px;
+    margin-left: 370px;
+  }
+  #button5 {
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline block;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 15px;
+    background-color: lightcoral;
+    padding: 10px;
+  }
+  #sright {
+    width: 50%;
+    height: 100%;
+  }
+  #sleft {
+    width: 50%;
+    height: 100%;
+    margin-top: -199px;
+    margin-left: 188px;
+  }
+  #sone {
+    width: 100%;
+    height: 50%;
+  }
+  #none {
+    font-size: 43px;
+    color: grey;
+    opacity: 0.7;
+    z-index: 1;
+    position: relative;
+  }
+  #sone h3 {
+    margin-top: -35px;
+    z-index: 2;
+    position: relative;
+    color: white;
+  }
+  #done {
+    margin-top: 5px;
+    color: white;
+  }
+  #lone {
+    color: rgb(222, 65, 91);
+    margin-top: 10px;
+  }
+  #stwo {
+    width: 100%;
+    height: 50%;
+  }
+  #ntwo {
+    font-size: 43px;
+    color: grey;
+    opacity: 0.5;
+  }
+  #stwo h3 {
+    margin-top: -35px;
+    z-index: 2;
+    position: relative;
+    color: white;
+  }
+  #dtwo {
+    margin-top: 5px;
+    color: white;
+  }
+  #ltwo {
+    color: rgb(222, 65, 91);
+    margin-top: 10px;
+  }
+  #sthree {
+    width: 100%;
+    height: 50%;
+  }
+  #nthree {
+    font-size: 43px;
+    color: gray;
+    opacity: 0.5;
+  }
+  #sthree h3 {
+    margin-top: -35px;
+    z-index: 2;
+    position: relative;
+    color: white;
+  }
+  #dthree {
+    margin-top: 5px;
+    color: white;
+  }
+  #lthree {
+    color: rgb(222, 65, 91);
+    margin-top: 10px;
+  }
+  #sfour {
+    width: 100%;
+    height: 50%;
+  }
+  #nfour {
+    font-size: 43px;
+    color: grey;
+    opacity: 0.5;
+  }
+  #sfour h3 {
+    margin-top: -35px;
+    z-index: 2;
+    position: relative;
+    color: white;
+  }
+  #dfour {
+    margin-top: 5px;
+    color: white;
+  }
+  #lfour {
+    color: rgb(222, 65, 91);
+    margin-top: 10px;
+  }
+  

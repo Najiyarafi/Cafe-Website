@@ -1,0 +1,2 @@
+- This is a static website that I have cloned from a template.
+- Hence I declare that this website design is not my own but i have coded this myself for learning purpose
